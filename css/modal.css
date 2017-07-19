@@ -1,0 +1,161 @@
+.salary-plans-dropdown {
+	border: none;
+	background-color: #e5e5e5;
+}
+
+.none {
+	display: none;
+}
+
+.panel-body ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.panel-body li {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.my-tips {
+	padding-left: 0px;
+}
+
+.panel-heading a {
+	text-decoration: none;
+}
+
+.panel-body a {
+	color: black;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.row {
+	margin: 15px 0px;
+}
+
+.list-row {
+	border: 1px solid rgb(184, 207, 223);
+}
+
+.left-panel {
+	border-right: 1px solid rgb(184, 207, 223);
+	padding-left: 0px;
+}
+
+.right-panel {
+	padding-left: 0px;
+	border-left: 1px solid rgb(184, 207, 223);
+}
+
+.rightAlignment {
+	float: right;
+}
+
+.info-icon {
+	background-color: rgba(255, 255, 255, 0.8);
+	/*Transparent background*/
+	border: none;
+}
+
+.newSalaryPlanLink a {
+	text-decoration: none;
+}
+
+#myModalLabel {
+	color: rgb(40, 96, 144);
+}
+
+#searchTextBox {
+	width: 68%;
+	float: left;
+	display: inline;
+	margin-top: 15px;
+}
+
+#search {
+	width: 30%;
+	float: right;
+	display: inline;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.btn-link:hover {
+	text-decoration: none;
+}
+
+.leftArea {
+	background-color: rgb(236, 236, 236);
+	padding: 15px;
+}
+
+.rightArea {
+	border-top: 2px solid rgb(40, 96, 144);
+}
+
+.tooltip-inner {
+	background-color: rgb(40, 96, 144);
+}
+
+[data-placement="top"]+.tooltip>.tooltip-arrow {
+	border-top-color: rgb(40, 96, 144);
+}
+
+.removeLink:hover {
+	color: red;
+}
+
+#firstRow {
+	background-color: rgb(236, 236, 236);
+}
+
+.pay-market {
+	margin-left: 15px;
+	margin-bottom: 30px;
+	color: gray;
+}
+
+.modal-title {
+	margin-left: 45px;
+}
+
+.gray {
+	color: gray;
+}
+
+#JOBS {
+	display: block;
+	float: left;
+}
+
+#numOfIncumbent {
+	display: block;
+	float: right;
+}
+
+.searchArea {
+	margin-top: 30px;
+}
+
+#filters {
+	margin: 25px 3px;
+}
+
+#modalTwoSaveCloseBtn {
+	margin-right: 20px;
+	margin-left: 60px;
+	padding: 4px 50px;
+}
+
+#modalTwoSaveSelectBtn {
+	padding: 4px 30px;
+	margin-left: 40px;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/modal.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<!--Button trigger modal-->
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			Launch demo modal one
+		</button>
+
+		<!--Modal-->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Manage Pay Markets</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<!--tips-->
+							<div class="col-md-12 col-sm-12 my-tips">
+								<div class="tips">
+									<span>
+										Select
+										<button class="salary-plans-dropdown" data-toggle="dropdown">
+											Salary Plans
+											<img src="img/ic_arrow_drop_down_17x8px@1x.png" />
+										</button>
+										
+										<ul class="dropdown-menu">
+											<li><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+										</ul>
+										 to define your range Pay Markets:
+									<button type="button" class="info-icon" data-toggle="popover" data-trigger="hover" title="Help Info" data-content="This is some tips." data-placement="top">
+										<img src="img/ic_info_20px@1x.png" />
+									</button>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="row list-row">
+							<!--mainBody-->
+							<div class="col-md-6 col-sm-6 left-panel">
+								<div class="panel">
+									<div class="panel-heading">
+										<span class="rightAlignment"><a href="#" id="addAll">Add All</a></span>
+										<h3 class="panel-title">AVAILABLE SALARY PLANS</h3>
+
+									</div>
+									<div class="panel-body left">
+										<ul>
+											<li>Boston(BOS)
+												<a href="#" class="rightAlignment"><img src="img/ic_add_arrowshape_15px@1x.png" alt="select" /></a>
+											</li>
+											<li>Candad(CAN)
+												<a href="#" class="rightAlignment"><img src="img/ic_add_arrowshape_15px@1x.png" alt="select" /></a>
+											</li>
+											<li>Candad(CAN)
+												<a href="#" class="rightAlignment"><img src="img/ic_add_arrowshape_15px@1x.png" alt="select" /></a>
+											</li>
+											<li>Great Britain(GB)
+												<a href="#" class="rightAlignment"><img src="img/ic_add_arrowshape_15px@1x.png" alt="select" /></a>
+											</li>
+											<li>United States(USA_HH)
+												<a href="#" class="rightAlignment"><img src="img/ic_add_arrowshape_15px@1x.png" alt="select" /></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 right-panel">
+								<div class="panel">
+									<div class="panel-heading">
+										<span class="rightAlignment"><a href="#" id="removeAll">Remove All</a></span>
+										<h3 class="panel-title">SELECTEN PAY MARKETS</h3>
+
+									</div>
+									<div class="panel-body right">
+										<ul>
+											<li>
+												CAN-Canada
+												<a href="#" class="rightAlignment"><img src="img/ic_edit_lightblue_15px@1x.png" alt="edit" /></a>
+												<a href="#" class="rightAlignment none"><img src="img/ic_close_18px@1x.png" alt="delete" /></a>
+											</li>
+											<li>
+												USA_LL-United States-Low Pay Market
+												<a href="#" class="rightAlignment"><img src="img/ic_edit_lightblue_15px@1x.png" alt="edit" /></a>
+												<a href="#" class="rightAlignment none"><img src="img/ic_close_18px@1x.png" alt="delete" /></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<!--addNewSalaryPlan-->
+							<div class="col-md-12 col-sm-12">
+								<div class="newSalaryPlanLink">
+									<a href="#" id="newSalaryPlan"><img src="img/ic_add_cross_18px@1x.png" alt="new" />New Salary Plan</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<div class="modal-footer-center">
+							<button type="button" class="btn btn-default " data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-primary " data-dismiss="modal">Confirm</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--another modal-->
+		<!--Button trigger modal-->
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#anotherModal">
+			Launch demo modal two
+		</button>
+		<!--Modal-->
+		<div class="modal fade" id="anotherModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Manage Incumbents</h4>
+					</div>
+
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-4 ">
+								<h5 class="pay-market"><b>Pay Market:</b></h5>
+								<span class="pay-market"><b>Boston(BOS)</b></span>
+								<div class="searchArea">
+									<form role="form">
+										<div class="form-group leftArea">
+											<label for="name" class="gray">SEARCH</label>
+											<select name="" class="form-control" id="selectField" value="-Select a field-">
+												<option value="" class="gray">-Select a field-</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+												<option value="">4</option>
+												<option value="">5</option>
+											</select>
+											<input type="text" id="searchTextBox" value="" class="form-control" />
+											<input type="button" id="search" value="Search" class="form-control btn btn-primary" />
+											<input type="button" id="AdvancedSearch" value="Advanced search..." class="btn btn-link" /><br />
+											<label for="filters" class="gray" id="filters">FILTERS</label>
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadios" id="optionsRadio1" value="option1" checked="checked" />Show all incumbents
+												</label>
+											</div>
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadios" id="optionsRadio2" value="option2" />Show all incumbents currently in this market
+												</label>
+											</div>
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadios" id="optionsRadio3" value="option3" />Show only incumbents not in this market
+												</label>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-8 rightArea">
+								<div class="gray" id="JOBS">
+									JOBS
+								</div>
+								<div class="gray" id="numOfIncumbent">
+									10 incumbents
+								</div>
+								<br /><br />
+								<span id="showIncumbentNum">0 </span>incumbent selected in this pay market
+								<table class="table">
+									<thead>
+										<tr id="firstRow">
+											<th><input type="checkbox" name="checkAll" id="checkAll" value="" /></th>
+											<th>INCUMBENT</th>
+											<th>JOB</th>
+											<th>TIER CODE</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox1" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox2" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox3" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox4" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox5" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox6" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox7" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox8" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox9" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" name="checkbox" id="checkBox10" />
+											</td>
+											<td>Bergman,Shawn(15452)</td>
+											<td>Detective(EXT 4562)</td>
+											<td>ABC</td>
+											<td>
+												<a href="#" class="removeLink" data-toggle="tooltip" title="Removed from Pay Market" data-placement="top">Removed</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal-footer">
+						<div class="modal-footer-center">
+							<button id="modalTwoCanaelBtn" type="button" class="btn btn-default " data-dismiss="modal">Cancel</button>
+							<button id="modalTwoSaveSelectBtn" type="button" class="btn btn-primary " data-dismiss="modal">Save & Select Another Pay Market</button>
+							<button id="modalTwoSaveCloseBtn" type="button" class="btn btn-primary " data-dismiss="modal">Save & Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/popover.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/addAllBtn.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/removeAllBtn.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/addBtn.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/removeBtn.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/newSalaryPlanBtn.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tooltip.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/checkAll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/countIncumbent.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/editBtn.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
